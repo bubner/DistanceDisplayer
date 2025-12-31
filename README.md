@@ -11,7 +11,7 @@ A small mod to display the Euclidean distance from a set target in the world to 
 |`.dd set <x> <y> <z>` | Sets the Distance Displayer target to these (`x`,`y`,`z`) world coordinates |
 |`.dd clear` | Clears the last set Distance Displayer target |
 
-The last Distance Displayer is remembered on the client.
+The last Distance Displayer value is remembered on the client in a global config as of now.
 
 >[!TIP]
 >World positions including target selectors are supported when using `.dd set`! You can set the target to your current location by running `.dd set s`.
